@@ -3,7 +3,7 @@ def nextMove(posr,posc,board):
     #bot position
     bot=5*posr+posc
 
-    #find the nearest dirty cell
+    #find the dirty cell
     for i in range (5):
         if d == 0:
             a=grid[i]
